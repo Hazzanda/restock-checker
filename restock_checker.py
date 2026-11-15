@@ -9,5 +9,5 @@ if cur_stock <= 0:
 
 if cur_stock <= re_stock:
     print(f"Reorder {(re_stock - cur_stock)} packs of {name} soon. Current stock is below threshold.")
-elif cur_stock > re_stock:
+else:
     print("Stock OK")
